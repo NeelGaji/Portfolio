@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+</head>
+
+<body>
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/IMG-2268.jpg" alt="Neel Gajiwala" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Neel Gajiwala">Neel Gajiwala</h1>
+
+          <p class="title">Designer&Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:neelgajiwala79@gmail.com" class="contact-link">neelgajiwala79@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917069872830" class="contact-link">+91 7069872830</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-11-07">Nov 07 , 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Surat, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button id= "project-button" class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm an Engineer Undergraduate, Desginer and Developer.<br />
+            I enjoy turning complex problems into simple, beautiful and
+            intuitive designs.
+
+            My Career Goal is to secure a challenging position in a reputable
+            organization to expand my learnings, knowledge, and skills. I have
+            experience as a part of a team and individual. I am able to handle
+            multiple tasks on a daily basis also a dependable person who is
+            great at time management. I am always energetic and eager to learn
+            new skills.
+          </p>
+          <a target="_blank" href="resume.pdf">Download Resume</a>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills:</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Eye-catching and easy to use website designs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-leadership-48.png" alt="People icon" width="35">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">People Management</h4>
+
+                <p class="service-item-text">
+                  Recruiting, hiring, training, mentoring, coaching, onboarding, disciplining, getting buy-in, team building.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-data-structure-78 (1).png" alt="DSA icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DSA</h4>
+
+                <p class="service-item-text">
+                  eager to learn new skills and advance knowledge with hands-on experience and proficient interpersonal abilities                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  n/a
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+        <ul class="project-list">
+          <li class="project-item  active" data-filter-item data-category="Cyber Security">
+            <a href="https://www.credly.com/badges/848b17e8-0dca-4402-9e99-4b0a510216bf" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/cisco.jpg" alt="Cisco" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Introduction to CyberSecurity</h3>
+
+              <p class="project-category">Dec,2020 - Dec,2020</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="https://www.linkedin.com/in/neel-gajiwala/" target="_blank">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/Microsoft Engage Mentee Badge.png" alt="Microsoft-Engage" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Microsoft Engage Mentee</h3>
+
+              <p class="project-category">May,2022 - July,2022</p>
+
+            </a>
+          </li>
+
+
+
+
+          <!-- <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/NOC.jpeg" alt="orizon" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Power Grid Internship</h3>
+
+              <p class="project-category">December 2022 - Present</p>
+
+            </a>
+          </li> -->
+          
+      </article>
+
+
+
+
+
+      <!--
+        - #Projects
+      -->
+
+      <article class="portfolio" id = "projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://neelgaji.github.io/Simon-Game/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/simon.jpg" alt="Simon-Game" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simon Game</h3>
+
+                <p class="project-category"><strong>➙</strong>  Developed a memory game which keeps going on until the user fails.<br>
+                 <strong>➙</strong> Implemented JQuery which helped in making things like HTML document traversal and manipulation, event
+                  handling, and animation.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://neelgaji.github.io/TextChanger/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TextChanger.jpg" alt="TextUtils" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TextChanger</h3>
+
+                <p class="project-category"><strong>➙</strong>Implemented Reactjs for designing the frontend and Node libraries.</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/NeelGaji/Movie-rec-Engage-22">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Movie-rec.png" alt="MovieRecommendation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Movie-Rec</h3>
+
+                <p class="project-category"><strong>➙</strong> Constructed a Machine Learning Model which works on Content Based Filtering using Cosine Similarity Metric<br>
+                  <strong>➙</strong> Implemented the use of APIs such as IMDB API, TMDB API<br>
+                  <strong>➙</strong> Alter the dataset of movies found on kaggle by using Python libraries like Pandas and numpy<br>
+                  <strong>➙</strong> Python serving as the backend and flask as a compact tool helps in running my frontend made using HTML+CSS+JavaScript
+                  </p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+          
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.54141360881!2d72.7522557484411!3d21.15918573906277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1669449068283!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  width="400" height="300" loading="lazy"></iframe>
+
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="mailto:neelgajiwala79@gmail.com" method="post"  class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
